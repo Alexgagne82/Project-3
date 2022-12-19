@@ -1,0 +1,124 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+body {
+    /* border: 10px solid whitesmoke;
+    border-radius: 20px;
+    position: absolute;
+    height: 1030px;
+    width:  740px;
+    left: 50%;
+    top:  50%; */
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+.img-act {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+
+}
+
+#hero {
+    background: url("images/mtl-skyline.jpg");
+    position: center;
+    /* width: 730px; */
+    height: 340px;
+    background-size: cover;
+    padding-top: 25px;
+    /* padding: 30px; */
+}
+
+#title-city {
+    color: #F1FAEE;
+    background-color: #457B9D;
+    width: 250px;
+    height: 34px;
+    margin: 120px auto 16px;
+    padding: 3px 12px 3px 16px;
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#title-info {
+    color: #F1FAEE;
+    background-color: #1D3557;
+    width: 355px;
+    height: 40px;
+    margin: 0px auto 120px;
+    padding: 8px 15px 3px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#activities {
+    color: #1D3557;
+    background-color: #F1FAEE;
+    margin: -20px auto;
+    /* width: 730px; */
+    height: 340px;
+}
+
+h3{
+    padding-top: 30px;
+}
+#activity-list {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+}
+.title {
+    font-weight: bold
+}
+.def {
+    /* margin-top: 20px; */
+    font-size: 13px;
+}
+
+.activity {
+    padding: 35px;
+    width: 350px;
+}
+#guide-section {
+    color:#1D3557;
+    background-color: #A8DADC;
+    margin: 75px auto;
+    padding: 5px;
+    width: 350px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 9px;
+    box-shadow: 0 5px #1D3557; 
+}
+
+#guide-info {
+    /* padding: 0px 20px;  */
+    margin: 0 20px 30px 20px;
+}
+
+.description {
+    font-size: 13px;
+    font-style: italic;
+}
+#avatar {
+    width: 140px;
+    height: 180px;
+    margin: 0 0 0 13px;
+    /* padding: 23px 13px; */
+    border-radius: 9px;
+}
