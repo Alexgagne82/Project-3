@@ -7,12 +7,8 @@ body {
     margin: 0;
 }
 
-.img-act {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
+/* Hero section */
 
-}
 
 #hero {
     background: url("images/mtl-skyline.jpg");
@@ -47,6 +43,9 @@ body {
     font-weight: 700;
 }
 
+
+/* Activity section */
+
 #activities {
     color: #1D3557;
     background-color: #F1FAEE;
@@ -56,6 +55,13 @@ body {
 
 h3{
     padding-top: 30px;
+}
+
+.img-act {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+
 }
 #activity-list {
     display: flex;
@@ -74,6 +80,9 @@ h3{
     padding: 35px;
     width: 350px;
 }
+
+/* Guide section */
+
 #guide-section {
     color:#1D3557;
     background-color: #A8DADC;
@@ -86,6 +95,7 @@ h3{
     border-radius: 9px;
     box-shadow: 0 5px #1D3557; 
 }
+
 
 #guide-info {
     margin: 0 20px 30px 20px;
